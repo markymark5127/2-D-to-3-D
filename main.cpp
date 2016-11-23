@@ -17,7 +17,7 @@ int main(void)
 	ReadImage("kitten.bmp", red, green, blue);
 	for (int r = 0; r < (WIDTH * 2) + midWidth; r++)
 	{
-		for (int c = 0; c < HEIGHT * 2; c++)
+		for (int c = 0; c < HEIGHT; c++)
 		{
 			if (r !< WIDTH && r < WIDTH + midWidth)
 			{
